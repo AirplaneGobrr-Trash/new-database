@@ -1,5 +1,25 @@
 {
-	"dependencies": {
-		"socket.io-client": "^4.5.3"
-	}
+  "name": "@airplanegobrr/new-database",
+  "version": "1.0.0",
+  "description": "Don't use",
+  "main": "database.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AirplaneGobrr-Trash/new-database.git"
+  },
+  "keywords": [
+    "database"
+  ],
+  "author": "AirplaneGobrr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AirplaneGobrr-Trash/new-database/issues"
+  },
+  "homepage": "https://github.com/AirplaneGobrr-Trash/new-database#readme",
+  "files": ["database.js"]
 }

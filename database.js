@@ -1,14 +1,24 @@
 const { io } = require("socket.io-client")
 class dbClient {
     constructor(url, database, auth){
+        BigInt.prototype.toJSON = function() { return this.toString() }
         this.socket = io(url, {
             auth: {
                 database: database,
                 auth: auth
-            }
+            },
         });
         this.cache = {}
         this.defaultTable = null
+    }
+
+    async changeDatabase(database){
+        return new Promise((resolve, reject) => {
+            this.socket.emit("changeDatabase", database, (a)=>{
+                if (a && a?.error) reject(a)
+                return resolve(a)
+            })
+        })
     }
 
     async get(path) {
