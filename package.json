@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Don't use",
   "main": "database.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "socket.io-client": "^4.5.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +22,7 @@
     "url": "https://github.com/AirplaneGobrr-Trash/new-database/issues"
   },
   "homepage": "https://github.com/AirplaneGobrr-Trash/new-database#readme",
-  "files": ["database.js"]
+  "files": [
+    "database.js"
+  ]
 }

@@ -1,12 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  socket.io-client: ^4.5.3
-  socket.io-parser: ^4.2.1
+  socket.io-client: ^4.5.4
 
 dependencies:
-  socket.io-client: 4.5.3
-  socket.io-parser: 4.2.1
+  socket.io-client: 4.5.4
 
 packages:
 
@@ -49,8 +47,8 @@ packages:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
     dev: false
 
-  /socket.io-client/4.5.3:
-    resolution: {integrity: sha512-I/hqDYpQ6JKwtJOf5ikM+Qz+YujZPMEl6qBLhxiP0nX+TfXKhW4KZZG8lamrD6Y5ngjmYHreESVasVCgi5Kl3A==}
+  /socket.io-client/4.5.4:
+    resolution: {integrity: sha512-ZpKteoA06RzkD32IbqILZ+Cnst4xewU7ZYK12aS1mzHftFFjpoMz69IuhP/nL25pJfao/amoPI527KnuhFm01g==}
     engines: {node: '>=10.0.0'}
     dependencies:
       '@socket.io/component-emitter': 3.1.0
